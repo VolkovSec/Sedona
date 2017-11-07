@@ -1,1 +1,18 @@
-﻿
+﻿.body{
+    background-color: lightgray;
+    align-content: center;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto; /* задаем отступ слева и справа auto чтобы сработало выравнивание по центру */
+    background-color: white;
+}
+.main_nav{
+
+}
+
+.main_nav li {
+    list-style: none; /* Убираем маркеры списка */
+    display: inline-block;
+    padding: 0px 0px 0px 50px;
+}
