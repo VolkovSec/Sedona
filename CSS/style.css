@@ -7,9 +7,6 @@
     margin: 0 auto; /* задаем отступ слева и справа auto чтобы сработало выравнивание по центру */
     background-color: white;
 }
-.main_nav{
-
-}
 
 .main_nav li {
     list-style: none; /* Убираем маркеры списка */
@@ -20,21 +17,52 @@
 .intro_banner{
     position: relative;
     width: 1200;
-    height: 510px;
-    background-image: url('../IMG/intro.jpg');
+    height: 520px;
+    background-image: url('../IMG/intro.png');
+    background-repeat: no-repeat;
 }
 .border_botom {
     position: absolute;
     left: 0px;
     margin: 0px 0px 0px 0px;
-    bottom: 0px;
+    bottom: -0px;
 }
-.Flex_box_Infrastructure{
+
+.about{
+    height: 203px;
+}
+
+.banner{
+  margin: 0px 0px 0px 0px;
+  height: 256px;
+}
+
+.flex_box_infrastructure{
     display: flex;
 }
-.Flex_box_Infrastructure div:nth-child(1){
-    flex-grow: 1;
+
+.flex_box_infrastructure div:nth-child(1){
+    flex-grow: 3;
+    width: 100px;
+    background-color: lightgreen;
+    
 }
-.Flex_box_Infrastructure div:nth-child(2){
-    width: 100px
+
+.flex_box_showplaces{
+    display: flex;
+}
+
+.flex_box_showplaces div:nth-child(2){
+    flex-grow: 3;
+    width: 100px;
+    background-color: lightgreen;
+    
+}
+.links_infrastructure{
+    height: 330px;
+    background-color: lightskyblue
+}
+.links_reasons{
+    height: 330px;
+    background-color: lightskyblue
 }
