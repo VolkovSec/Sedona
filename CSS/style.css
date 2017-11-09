@@ -16,8 +16,25 @@
     display: inline-block;
     padding: 0px 0px 0px 50px;
 }
+/* Главный банер */
 .intro_banner{
-    width: 700px;
-    height: 400px;
+    position: relative;
+    width: 1200;
+    height: 510px;
     background-image: url('../IMG/intro.jpg');
+}
+.border_botom {
+    position: absolute;
+    left: 0px;
+    margin: 0px 0px 0px 0px;
+    bottom: 0px;
+}
+.Flex_box_Infrastructure{
+    display: flex;
+}
+.Flex_box_Infrastructure div:nth-child(1){
+    flex-grow: 1;
+}
+.Flex_box_Infrastructure div:nth-child(2){
+    width: 100px
 }
